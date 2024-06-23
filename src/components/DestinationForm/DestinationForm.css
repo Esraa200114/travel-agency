@@ -1,0 +1,136 @@
+/* Titles */
+.edit-modal-title, .validation-error {
+    font-family: "Poppins-Medium";
+}
+
+.spinner-text {
+    font-family: "Poppins-SemiBold";
+}
+
+/* Inputs */
+.rating-input-group,
+.city-input-group,
+.side-input-group,
+.starting-date-input-group,
+.ending-date-input-group,
+.description-input-group,
+.add-to-favourites-input-group {
+    font-family: "Poppins-Medium";
+}
+
+/* Buttons */
+.add-to-favourites-button {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    accent-color: #07689F;
+}
+
+/* Text and Span */
+.spinner-text,
+.spinner-border,
+.rating-input-group span,
+.city-input-group span,
+.side-input-group span,
+.starting-date-input-group span,
+.ending-date-input-group span,
+.description-input-group span {
+    color: #000000;
+}
+
+.rating-input-group span,
+.city-input-group span,
+.side-input-group span,
+.starting-date-input-group span,
+.ending-date-input-group span,
+.description-input-group span,
+.spinner-wrapper {
+    background-color: #FFFFFF;
+}
+
+.rating-input-group output,
+.city-input-group input,
+.side-input-group input,
+.starting-date-input-group input,
+.ending-date-input-group input,
+.description-input-group textarea {
+    font-family: "Poppins-Light";
+}
+
+/* Input Focus */
+.city-input-group input:focus {
+    outline: none;
+}
+
+/* Slider Thumb */
+.rating-input-group input::-webkit-slider-thumb,
+.edit-button:hover,
+.edit-modal-positive-button:hover {
+    background-color: #07689F;
+}
+
+/* Edit Button */
+.edit-button,
+.edit-icon,
+.edit-modal-positive-button {
+    color: #07689F;
+}
+
+.edit-button,
+.edit-modal-positive-button {
+    border: 1px solid #07689F;
+}
+
+/* Modal Buttons */
+.edit-button,
+.edit-modal-negative-button,
+.edit-modal-positive-button {
+    font-family: "Poppins-Light";
+}
+
+.edit-modal-negative-button {
+    border: 1px solid #A6A6A6;
+    color: #A6A6A6;
+}
+
+.edit-modal-negative-button:hover {
+    background-color: #A6A6A6;
+}
+
+.edit-button:hover,
+.edit-button:hover .edit-icon,
+.edit-modal-negative-button:hover,
+.edit-modal-positive-button:hover {
+    color: #FFFFFF;
+}
+
+/* Spinner */
+.spinner-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    z-index: 1;
+    border-radius: 0.5rem;
+}
+
+/* Add New Destination Button Style */
+.add-destination-button {
+    font-family: "Poppins-SemiBold";
+    color: #FFFFFF;
+    background-color: #07689F;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    font-size: 1.15rem;
+}
+
+.add-destination-button:hover {
+    background-color: #d9d9d9;
+}
+
+/* Validation Error Text Style */
+.validation-error {
+    color: #dc362eff;
+}

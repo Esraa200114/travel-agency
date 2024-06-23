@@ -1,0 +1,48 @@
+/* Inspiration Section */
+.inspiration-section {
+    background-image: url("../../assets/images/inspiration.jfif");
+    background-size: cover;
+    min-height: 86vh;
+    position: relative;
+    color: white;
+    padding: 0;
+}
+
+/* Inspiration Section Overlay */
+.inspiration-section-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #000000 12.21%, rgba(0, 0, 0, 0) 71.92%);
+}
+
+.inspiration-section-overlay:hover {
+    background: linear-gradient(0deg, rgba(200, 205, 208, 1) 5%, rgba(200, 205, 208, 0.5) 100%);
+}
+
+/* Inspiration Section Text Styles */
+.inspiration-section-top-left-text .heading,
+.inspiration-section-top-left-text .sub-heading,
+.inspiration-section-bottom-right-text .heading {
+    font-family: "Poppins-Bold";
+}
+
+.inspiration-section-top-left-text .heading {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+}
+
+.inspiration-section-top-left-text .sub-heading {
+    line-height: 1.75rem;
+}
+
+.inspiration-section-bottom-right-text .heading {
+    font-size: 2.75rem;
+    line-height: 3.85rem;
+}
+
+.inspiration-section-bottom-right-text .read-more {
+    font-family: "Poppins-Regular";
+    font-size: 1.125rem;
+    line-height: 1.575rem;
+}

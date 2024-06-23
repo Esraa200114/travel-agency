@@ -1,0 +1,132 @@
+/* Styles For The Search Bar Section */
+.search-bar-section {
+    position: relative;
+}
+
+/* Styles For The Search Bar And Dropdown Content */
+.search-bar,
+.dropdown-content {
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
+
+/* Specific Styles For The Search Bar */
+.search-bar {
+    height: 2.5rem;
+}
+
+/* Change Background Color On Hover */
+.search-bar:hover {
+    background-color: #d9d9d9;
+}
+
+/* Remove Outline On Focus */
+.search-bar:focus {
+    outline: none;
+}
+
+/* Styles For The Search Button */
+.search-button {
+    position: absolute;
+    top: 50%;
+    right: 0.5rem;
+    transform: translateY(-50%);
+    background-color: transparent;
+}
+
+/* Styles For The Navbar Toggler */
+.navbar-toggler:focus {
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+/* Styles For The Account Image */
+.account-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #043E5F;
+}
+
+/* Styles For The "Your Account" Text */
+.your-account {
+    font-family: "Poppins-ExtraBold";
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1.225rem;
+    color: #043E5F;
+}
+
+/* Styles For The "Account Name" Text And Dropdown Menu Anchor */
+.account-name,
+.dropdown-menu a {
+    font-family: "Poppins-Regular";
+    line-height: 1.05rem;
+}
+
+/* Specific Styles For The Account Name */
+.account-name {
+    font-size: 12px;
+    color: #07689F;
+}
+
+/* Layout Styles */
+
+/* Styles For The Dropdown Content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    margin-top: 10px;
+    right: 0;
+}
+
+/* Styles For Horizontal Rules */
+hr {
+    margin: 0;
+}
+
+/* Cursor Style For Dropdown, Logo Section, And Hovered List Items */
+.dropdown,
+.logo-section,
+.icons-list li:hover {
+    cursor: pointer;
+}
+
+/* Styles For Dropdown Menu Anchor */
+.dropdown-menu a {
+    font-size: 14px;
+    color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration: none;
+    line-height: 1.05rem;
+}
+
+/* Background Color Change On Hover For Dropdown Menu Anchor */
+.dropdown-menu a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show Dropdown Menu On Hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Media Query For Small Screens */
+@media screen and (max-width: 992px) {
+
+    /* Flex Direction And Alignment For Icons List */
+    .icons-list {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    /* Inline-Block Display For List Items */
+    .icons-list li {
+        display: inline-block;
+    }
+}

@@ -1,0 +1,29 @@
+/* Back Review Cards Section Styles */
+.back-review-cards-section {
+    background-image: url("../../assets/images/seashells.jfif");
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+    margin-top: 4.5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Swiper Styles */
+.swiper {
+    padding-bottom: 3.125rem;
+}
+
+/* Swiper Pagination Bullet Styles */
+.swiper-pagination-bullet {
+    color: #000;
+    opacity: 1;
+}
+
+/* Active Swiper Pagination Bullet Styles */
+.swiper-pagination-bullet-active-main {
+    border: 1px solid rgba(0, 0, 0, 1);
+    background-color: transparent;
+}

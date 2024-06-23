@@ -1,0 +1,16 @@
+/* Navigation Section */
+.navigation-section {
+    margin-top: 2.5rem;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 822px) {
+    /* Styling for Navigation Bar on Small Screens */
+    .nav-bar {
+        overflow-x: scroll;
+    }
+    /* Hide Scrollbar for WebKit Browsers */
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+}

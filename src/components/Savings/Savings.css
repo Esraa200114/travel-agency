@@ -1,0 +1,39 @@
+/* Savings Heading Styles */
+.savings-heading {
+    font-family: "Poppins-Bold";
+    line-height: 1.75rem;
+    color: rgba(7, 104, 159, 1);
+}
+
+/* Savings Subheading Styles */
+.savings-subheading1,
+.savings-subheading2 {
+    font-family: "Poppins-Regular";
+    font-size: 0.875rem;
+    line-height: 1.313rem;
+}
+
+/* Savings Subheading1 Styles */
+.savings-subheading1 {
+    color: rgba(0, 0, 0, 1);
+}
+
+/* Savings Subheading2 Styles */
+.savings-subheading2 {
+    color: rgba(86, 86, 86, 1);
+}
+
+/* Savings Icon Container Styles */
+.savings-icon-container {
+    background-color: #EFEFEF;
+    padding: 0.09px;
+    height: 40px;
+    border-radius: 4px;
+    transform: rotate(180deg);
+}
+
+/* Applying Pointer Cursor to App Download Links */
+img[alt="Download the app from app store"],
+img[alt="Download the app from play store"] {
+    cursor: pointer;
+}

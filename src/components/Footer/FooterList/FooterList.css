@@ -1,0 +1,21 @@
+/* Footer Styling */
+.footer-list-header, .footer-list-item {
+    line-height: 1.4rem;
+    color: #000000;
+}
+
+.footer-list-header {
+    font-family: "Poppins-Bold";
+    background-color: transparent;
+    border: none;
+}
+
+.footer-list {
+    padding-left: 0px;
+}
+
+.footer-list-item {
+    text-transform: capitalize;
+    font-family: "Poppins-Regular";
+    opacity: 0.7;
+}

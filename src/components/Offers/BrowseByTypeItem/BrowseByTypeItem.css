@@ -1,0 +1,93 @@
+/* Browse By Type Item Card */
+.browse-by-type-item-card-col {
+    position: relative;
+}
+
+.browse-by-type-item-card-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+}
+
+.browse-by-type-item-card-overlay-active {
+    display: block;
+}
+
+.browse-by-type-item-card {
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+.browse-by-type-item-card:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.browse-by-type-item-card-image-section {
+    position: relative;
+}
+
+.browse-by-type-item-card-image-section img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+/* Browse By Type Item Favorite */
+.browse-by-type-item-favourite {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+/* Browse By Type Item Mode Setting */
+.browse-by-type-item-mode-setting {
+    opacity: 0.7;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(180deg, rgba(12, 12, 12, 0) 0%, #0C0C0C 50%);
+}
+
+/* Browse By Type Item Text Styles */
+.browse-by-type-item-mode-setting span,
+.browse-by-type-item-rating,
+.browse-by-type-item-title {
+    font-family: "Poppins-Bold";
+}
+
+.browse-by-type-item-mode-setting span {
+    line-height: 1.4rem;
+    color: #F9F9F9;
+}
+
+.browse-by-type-item-rating {
+    font-size: 0.625rem;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding: 10px 2px;
+    line-height: 0.875rem;
+    height: 20px;
+    align-content: center;
+}
+
+.browse-by-type-item-title {
+    line-height: 1.75rem;
+    color: #000000;
+    text-transform: capitalize;
+}

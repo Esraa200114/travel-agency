@@ -1,0 +1,138 @@
+/* Slogan Section */
+.slogan-section {
+    background-image: url("../../assets/images/flight_landing_page_slogan_picture.jfif");
+    background-size: cover;
+    min-height: 67vh;
+    position: relative;
+    margin-top: 1.5rem;
+    padding: 0;
+}
+
+/* Slogan Section Overlay */
+.slogan-section-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 35, 77, 0.63) 11.46%, rgba(0, 35, 77, 0) 77.37%);
+}
+
+/* Banner Heading And Book Button */
+.banner-heading,
+.banner-sub-heading,
+.book-button {
+    font-family: "Poppins-Bold";
+    color: #FFFFFF;
+}
+
+/* Banner Heading */
+.banner-heading {
+    font-size: 44px;
+    line-height: 3.85rem;
+}
+
+/* Banner Sub-Heading */
+.banner-sub-heading {
+    font-family: "Poppins-SemiBold";
+    line-height: 1.5rem;
+}
+
+/* Input & Placeholder Styles */
+.place-input,
+.date-input,
+.book-input,
+.input-icon,
+.slider-icon {
+    background-color: #FFFFFF;
+}
+
+.place-input,
+.date-input,
+.book-input {
+    padding-left: 1rem;
+    height: 56px;
+    border-radius: 0px;
+}
+
+.place-input,
+.date-input,
+.book-input {
+    border-width: 2px 0px 2px 2px;
+    border-color: #2F83B2;
+    border-style: solid;
+}
+
+.place-input {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.place-input input,
+.date-input input,
+.book-input input {
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-left: none;
+}
+
+.place-input ::placeholder,
+.place-input input,
+.date-input ::placeholder,
+.date-input input,
+.book-input ::placeholder,
+.book-input input {
+    font-family: "Poppins-Regular";
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.05rem;
+}
+
+.place-input ::placeholder,
+.date-input ::placeholder,
+.book-input ::placeholder {
+    color: #565656;
+}
+
+.place-input .input-group-text {
+    border-top-left-radius: 2px !important;
+    border-bottom-left-radius: 2px !important;
+}
+
+/* Input Icons */
+.input-icon,
+.slider-icon {
+    border: none;
+}
+
+/* Slider Icon */
+.slider-icon {
+    margin-right: 0.1rem;
+}
+
+/* Button Styles */
+.book-button {
+    border: 2px solid #07689F;
+    background-color: #07689F;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: 56px;
+}
+
+/* Form Control Styles On Hover, Active, And Focus */
+.form-control:hover,
+.form-control:active,
+.form-control:focus {
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+/* Media Query For Adjusting Input Padding On Larger Screens */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .place-input,
+    .date-input,
+    .book-input {
+        padding-left: 0rem;
+    }
+}

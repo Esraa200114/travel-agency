@@ -1,0 +1,48 @@
+/* Table Headers */
+th {
+    font-family: "Poppins-Regular";
+}
+
+/* Table Cells */
+td {
+    font-family: "Poppins-Regular";
+    font-size: 1.10rem;
+}
+
+/* Table Headers and Cells */
+th,
+td {
+    line-height: 1.4rem;
+}
+
+/* Table Cell Images */
+td img {
+    border-radius: 4px;
+}
+
+/* Table Elements Alignment */
+.table th,
+.table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Table header styles */
+.destinations-table-header th {
+    /* background-color: #043E5F; */
+    background-color: black;
+    color: white;
+    border-right: none;
+}
+
+/* Border radius for first child of header */
+.destinations-table-header, .destinations-table-header th:first-child {
+    border-top-left-radius: 8px;
+}
+
+/* Border radius for last child of header */
+.destinations-table-header, .destinations-table-header th:last-child {
+    border-top-right-radius: 8px;
+}
+
+

@@ -1,0 +1,123 @@
+/* Styles For Special Deals Headings */
+.special-deals-heading {
+    font-family: "Poppins-Bold";
+    font-size: 2rem;
+    line-height: 2.8rem;
+    color: #000000;
+    margin-bottom: 0.125rem;
+}
+
+/* Styles For Special Deals Sub-Heading */
+.special-deals-sub-heading {
+    font-family: "Poppins-SemiBold";
+    line-height: 1.5rem;
+    color: #000000;
+}
+
+/* Flex Layout */
+.first-row,
+.second-row {
+    display: flex;
+}
+
+/* Original Flex Properties */
+.image-1 {
+    flex: 2;
+}
+
+.image-2 {
+    flex: 1;
+}
+
+.image-3 {
+    flex: 2;
+}
+
+.image-4 {
+    flex: 2;
+}
+
+.image-5 {
+    flex: 1;
+}
+
+.image-6 {
+    flex: 1;
+}
+
+/* Border Radius For Images */
+/* First Image Of The First Row */
+div.first-row div:first-child div img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 0px;
+}
+
+/* Last Image Of The First Row */
+div.first-row div:last-child div img {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 0px;
+}
+
+/* First Image Of The Second Row */
+div.second-row div:first-child div img {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 0px;
+}
+
+/* Last Image Of The Second Row */
+div.second-row div:last-child div img {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+}
+
+/* Responsive Layout For Screens Width 991px And Less */
+@media screen and (max-width: 992px) {
+
+    .first-row,
+    .second-row {
+        flex-wrap: wrap;
+        /* Allow Items To Wrap To The Next Line */
+    }
+
+    /* Adjusted Flex Properties For Specific Layout */
+    .image-1-full-width {
+        flex: none;
+        width: 100%;
+    }
+
+    .image-2 {
+        flex: 1.5;
+    }
+
+    .image-3 {
+        flex: 2;
+    }
+
+    .image-4-full-width {
+        flex: none;
+        width: 100%;
+    }
+
+    .image-5 {
+        flex: 1;
+    }
+
+    .image-6 {
+        flex: 1;
+    }
+}
+
+/* Responsive Layout For Screens Width 576px And Less */
+@media screen and (max-width: 576px) {
+
+    .image-1,
+    .image-2,
+    .image-3,
+    .image-4,
+    .image-5,
+    .image-6 {
+        flex: none;
+        width: 100%;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,16 @@
+/* Discover Your Adventure Heading Styles */
+.discover-your-adventure-heading {
+    color: #000000;
+    font-family: "Poppins-Bold";
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 0.125rem;
+}
+
+/* Discover Your Adventure Subheading Styles */
+.discover-your-adventure-subheading {
+    color: #000000;
+    font-family: "Poppins-Regular";
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+}

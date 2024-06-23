@@ -1,0 +1,110 @@
+/* Hot Stays Card */
+.hot-stays-card {
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    position: relative;
+    height: 367px;
+}
+
+/* Hot Stays Card Overlay */
+.hot-stays-card-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+    display: none;
+}
+
+/* Show Overlay On Hover */
+.hot-stays-card:hover .hot-stays-card-overlay {
+    display: block;
+}
+
+/* Hot Stays Card Image Section */
+.hot-stays-card-image-section {
+    position: relative;
+}
+
+/* Hot Stays Card Image */
+.hot-stays-card-image-section img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Hot Stays Like Button */
+.hot-stays-like {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+/* Hot Stays Mode Setting */
+.hot-stays-mode-setting {
+    opacity: 0.7;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(22.59deg, #000000 50.29%, rgba(12, 12, 12, 0) 120.91%);
+}
+
+/* Hot Stays Rating & Hot Stays Title */
+.hot-stays-rating,
+.hot-stays-title {
+    font-family: "Poppins-Bold";
+}
+
+/* Hot Stays Rating */
+.hot-stays-rating {
+    font-size: 0.625rem;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding: 10px 2px;
+    line-height: 0.875rem;
+    height: 20px;
+}
+
+/* Hot Stays Title, Subtitle, Date, And Description */
+.hot-stays-title,
+.hot-stays-subtitle,
+.hot-stays-date,
+.hot-stays-description {
+    color: #000000;
+}
+
+/* Hot Stays Title */
+.hot-stays-title {
+    line-height: 1.75rem;
+    margin-bottom: 0.125rem;
+}
+
+/* Hot Stays Subtitle */
+.hot-stays-subtitle {
+    font-family: "Poppins-SemiBold";
+    color: #A6A6A6;
+}
+
+/* Hot Stays Date */
+.hot-stays-date {
+    font-family: "Poppins-Medium";
+    font-size: 0.75rem;
+    line-height: 1.05rem;
+}
+
+/* Hot Stays Description */
+.hot-stays-description {
+    font-family: "Poppins-Light";
+    font-size: 0.625rem;
+    line-height: 0.875rem;
+}

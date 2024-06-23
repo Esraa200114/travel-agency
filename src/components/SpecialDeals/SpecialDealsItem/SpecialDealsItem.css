@@ -1,0 +1,63 @@
+/* Deal Container */
+.deal {
+    position: relative;
+}
+
+/* Discover Deals Button */
+.deals-discover {
+    font-family: "Poppins-Regular";
+    background-color: #0C0C0CB2;
+    position: absolute;
+    color: #FFFFFF;
+    border-radius: 4px;
+    bottom: 12px;
+    left: 16px;
+    transition: text-shadow 0.3s ease; /* Smooth transition For Text Shadow */
+}
+
+/* Style For The "Discover" Text */
+.deals-discover span {
+    color: #FFFFFF;
+    z-index: 2; /* Ensure The Text Is Above Other Elements */
+}
+
+/* Image Container */
+.special-deal-image {
+    height: 278px;
+}
+
+/* Overlay For Item */
+.special-deal-item-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:rgba(255, 255, 255, 0.5); /* Semi-transparent white overlay */
+    z-index: 0;
+    display: none;
+}
+
+/* Show Overlay On Hover */
+.deal:hover .special-deal-item-overlay {
+    display: block;
+}
+
+/* Apply Text Shadow On Hover */
+.deal:hover .deals-discover span {
+    text-shadow: 0 0 10px white; /* Add White Text Shadow On Hover */
+}
+
+/* Responsive Layout For Screens Width 991px And Less */
+@media screen and (max-width: 992px) {
+    .special-deal-image {
+        height: 278px;
+    }
+}
+
+/* Responsive Layout For Screens Width 576px And Less */
+@media screen and (max-width: 576px) {
+    .special-deal-image {
+        height: 320px;
+    }
+}

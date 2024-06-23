@@ -1,0 +1,64 @@
+/* Review Card Styles */
+.review-card,
+.review-card-image img {
+    width: 100%;
+}
+
+.review-card {
+    position: relative;
+    height: 290px;
+    max-width: 252px;
+    margin: 0 auto;
+}
+
+/* Review Card Image Styles */
+.review-card-image {
+    width: 120px;
+    height: 117.86px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.review-card-image img {
+    border-radius: 50%;
+    height: 100%;
+}
+
+/* Review Card Body Styles */
+.review-card-body {
+    height: calc(100% - 60px);
+    padding-top: 80px;
+    padding-bottom: 32px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        linear-gradient(360deg, rgba(0, 0, 0, 0.5) 20.14%, rgba(0, 0, 0, 0) 92.13%);
+    border-radius: 8px;
+}
+
+/* Review Card Body Text Styles */
+.review-card-body-reviewer,
+.review-card-body-review {
+    color: rgba(255, 255, 255, 1);
+}
+
+.review-card-body-reviewer {
+    margin: 0;
+    font-family: "Poppins-Medium";
+    line-height: 1.4rem;
+}
+
+.review-card-body-reviewer img {
+    margin-right: 8px;
+}
+
+.review-card-body-review {
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: "Poppins-Regular";
+    line-height: 1.05rem;
+}

@@ -1,0 +1,38 @@
+/* Styles for upload image container */
+.upload-image {
+    position: relative;
+}
+
+/* Styles for uploaded image */
+.upload-image img {
+    border-radius: 4px;
+}
+
+/* Styles for edit image button */
+.edit-image-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 16px;
+    background-color: #07689F;
+    border: 1px solid #07689F;
+}
+
+.edit-image-button:hover {
+    background-color: #dee2e6;
+    border: 1px solid #dee2e6;
+}
+
+/* Styles for choose image button */
+.choose-image-button {
+    background-color: white;
+    border: 2px dashed #dee2e6;
+    border-radius: 4px;
+    height: 278px;
+}
+
+/* Text styles inside choose image button */
+.choose-image-button div p {
+    color: #dee2e6;
+    font-family: "Poppins-Medium";
+}

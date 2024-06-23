@@ -1,0 +1,54 @@
+/* Delete Modal Title */
+.delete-modal-title {
+    font-family: "Poppins-SemiBold";
+}
+
+/* Delete Modal Body */
+.delete-modal-body {
+    font-family: "Poppins-Regular";
+}
+
+/* Delete Buttons */
+.delete-button,
+.delete-modal-negative-button,
+.delete-modal-positive-button {
+    font-family: "Poppins-Light";
+}
+
+/* Positive Button Styling */
+.delete-modal-positive-button {
+    color: #07689F;
+    border: 1px solid #07689F;
+}
+
+/* Negative Button Styling */
+.delete-button,
+.delete-modal-negative-button {
+    border: 1px solid #A6A6A6;
+}
+
+/* Delete Icon and Buttons Default Color */
+.delete-icon,
+.delete-button,
+.delete-modal-negative-button {
+    color: #A6A6A6;
+}
+
+/* Hover Styles for Negative Button */
+.delete-button:hover,
+.delete-modal-negative-button:hover {
+    background-color: #A6A6A6;
+}
+
+/* Hover Styles for Positive Button */
+.delete-modal-positive-button:hover {
+    background-color: #07689F;
+}
+
+/* Hover Styles for Buttons and Delete Icon */
+.delete-button:hover,
+.delete-modal-negative-button:hover,
+.delete-modal-positive-button:hover,
+.delete-button:hover .delete-icon {
+    color: #FFFFFF;
+}
